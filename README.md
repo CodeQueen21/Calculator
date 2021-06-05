@@ -1,0 +1,1 @@
+In this project I'm using HTML, CSS, and Javascript to create a fully functional calculator with styling.
