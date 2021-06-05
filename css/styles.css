@@ -1,6 +1,11 @@
 * {
     box-sizing: border-box;
     font-size: 16px;
+    color: white;
+}
+
+body {
+    background-color: #7C2b72;
 }
 
 #calculator {
@@ -9,6 +14,8 @@
     border: 2px solid black;
     border-radius: 10px;
     margin: 20px auto 0 auto;
+    background-color: #79a7d3;
+    box-shadow: 5px 10px #282828;
 }
 
 #display {
@@ -17,6 +24,7 @@
     border: 2px solid black;
     border-radius: 5px;
     margin: 10px auto 0 auto;
+    background-color: #6883bc;
 }
 
 .content {
@@ -48,6 +56,10 @@
     border-radius: 50%;
 }
 
+.button:hover {
+    cursor: pointer;
+}
+
 .button p {
     text-align: center;
     margin-top: 30%;
@@ -63,4 +75,28 @@
 
 #zero p {
     margin-top: 15%;
+}
+
+#divide, #multiply, #subtract, #addition, #equals {
+    background-color: #8a307f;
+}
+ 
+#divide:hover, #multiply:hover, #subtract:hover, #addition:hover, #equals:hover {
+    background-color: #7C2b72;
+}
+
+#clear, #sign, #percentage {
+    background-color: #484848;
+}
+
+#clear:hover, #sign:hover, #percentage:hover {
+    background-color: #404040;
+}
+
+#seven, #eight, #nine, #four, #five, #six, #one, #two, #three, #zero, #decimal {
+    background-color: #6883bc;
+}
+
+#seven:hover, #eight:hover, #nine:hover, #four:hover, #five:hover, #six:hover, #one:hover, #two:hover, #three:hover, #zero:hover, #decimal:hover {
+    background-color: #4f6aa3;
 }
