@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+#calculator {
+    height: 500px;
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px auto 0 auto;
+}
+
+#display {
+    height: 100px;
+    width: 95%;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px 5px 0 8px;
+}
