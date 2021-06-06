@@ -22,6 +22,9 @@ let userInput = [];
 let number;
 
 function joinArr(arr) {
+    if (arr.length > 9){
+        arr.length = 9;
+    }
     let joined = arr.join('');
     return joined;
 }
