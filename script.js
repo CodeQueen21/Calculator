@@ -1,3 +1,4 @@
+const results = document.querySelector('content').querySelector('p');
 const clearBtn = document.getElementById('clear');
 const signBtn = document.getElementById('sign');
 const percentBtn = document.getElementById('percentage');
@@ -17,5 +18,4 @@ const sixBtn = document.getElementById('six');
 const sevenBtn = document.getElementById('seven');
 const eightBtn = document.getElementById('eight');
 const nineBtn = document.getElementById('nine');
-
 
