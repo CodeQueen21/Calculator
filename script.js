@@ -29,27 +29,18 @@ let answer;
 function divide(a,b) {
     return a / b;
 }
-/*
-function numberChecker(arr) {
-    let count = 0;
-    for(let i = 0; i <= arr.length; i++) {
-      if(typeof arr[i] === 'number') {
-         count++;
-     }
-  }
-  return count;
+
+function multiply(a,b) {
+    return a * b;
 }
 
-function decimalChecker(arr) {
-    let count = 0;
-    for(let i = 0; i <= arr.length; i++) {
-        if(typeof arr[i] === 'string') {
-            count ++;
-        }
-    }
+function add(a,b) {
+    return a + b;
 }
-*/
 
+function subtract(a,b) {
+    return a - b;
+}
 
 function joinArr(arr) {
     if (arr.length > 9){
@@ -141,6 +132,11 @@ divideBtn.addEventListener('click', () => {
    firstUserInput = content;
    userInput.length = 0;
 })
+
+multiplyBtn.addEventListener('click', () => {
+    firstUserInput = content;
+    userInput.length = 0;
+ })
 
 equalBtn.addEventListener('click', () => {
 secondUserInput = content;
